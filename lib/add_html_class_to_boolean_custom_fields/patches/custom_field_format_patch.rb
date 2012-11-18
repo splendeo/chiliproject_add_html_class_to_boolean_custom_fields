@@ -10,9 +10,9 @@ module AddHtmlClassToBooleanCustomFields
             
       def format_as_bool_with_html_class(value)
         if value == "1"
-          return "<span class=\"boolean-true\">#{l(:general_text_Yes)}</span>".html_safe
+          return "<div class=\"custom_field\"><i class=\"boolean_true\"></i><span>#{l(:general_text_Yes)}</span></div>".html_safe
         else
-          return "<span class=\"boolean-false\">#{l(:general_text_No)}</span>".html_safe
+          return "<div class=\"custom_field\"><i class=\"boolean_false\"></i><span>#{l(:general_text_No)}</span></div>".html_safe
         end
       end
       
