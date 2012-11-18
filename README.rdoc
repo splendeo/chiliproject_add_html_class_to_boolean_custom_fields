@@ -1,0 +1,7 @@
+= add_html_class_to_boolean_custom_fields
+
+This is a plugin for ChiliProject adds boolean-true or boolean-false css selectors to rendered custom boolean fields
+
+= Installation
+
+Clone this repository at the vendor/plugins folder
